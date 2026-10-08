@@ -22,11 +22,11 @@
 
 <img src="docs/02-agent-mode.png" alt="Agent mode working in a project folder" width="860">
 
-<sub>Agent mode works inside your project folder and asks before changing files.</sub>
+<sub>Agent mode works inside your project folder: it plans tasks, edits files, runs your tests, and lets you review or undo every change.</sub>
 
 <img src="docs/03-projects.png" alt="The Projects page with to-dos, notes and the agent" width="860">
 
-<sub>Projects keep to-dos, notes, chats and the agent together.</sub>
+<sub>Projects keep to-dos, milestones, notes, chats and the agent together.</sub>
 
 <sub><i>Screenshots use sample chat and project content. The model list and request costs are the real beta catalog.</i></sub>
 
