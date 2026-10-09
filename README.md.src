@@ -5,7 +5,6 @@
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 96 MB)" height="64"></a>
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Portable-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page with live tester spots" height="64"></a>
-<a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
 <sub>Version 1.0.0-beta.2 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
 
@@ -173,7 +172,6 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64
 <details><summary><b>What counts as a request?</b></summary><br>Each chat message uses the request cost of the model you picked; free models use none. In agent mode, every step the agent takes uses the model's cost.</details>
 <details><summary><b>Where do my files go?</b></summary><br>The agent only works in the project folder you choose, on your own PC. You review its changes and can undo them.</details>
 <details><summary><b>Is the source code available?</b></summary><br>Not at the moment. This repository holds release builds only.</details>
-<details><summary><b>Where do I get help or report a bug?</b></summary><br>Join our <a href="https://discord.gg/DWYhRmu9Dz">Discord</a>: testers get their own channels for bug reports, feature requests and agent mode. You can also open an issue here on GitHub.</details>
 <details><summary><b>Mac or Linux?</b></summary><br>Windows 10 and 11 (64-bit) only for now.</details>
 
 <br>
@@ -183,10 +181,9 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64
 ## Try it while the spots last
 
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
-<a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
-Found a bug or have an idea? Tell us in **[Discord](https://discord.gg/DWYhRmu9Dz)** or **[open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)**: say what you did, what you expected and what happened. A screenshot helps.
+Found a bug or have an idea? **[Open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)**: say what you did, what you expected and what happened. A screenshot helps.
 
-<sub>AeroScan AI · <a href="https://ai.aeroscan.co.za/download">ai.aeroscan.co.za</a> · <a href="https://discord.gg/DWYhRmu9Dz">Discord</a></sub>
+<sub>AeroScan AI · <a href="https://ai.aeroscan.co.za/download">ai.aeroscan.co.za</a></sub>
 
 </div>
