@@ -55,6 +55,82 @@ When the 20 spots are gone, registration closes. The [download page](https://ai.
 - **Projects** page to keep a project's chats, notes, code and agent work together.
 - **Image generation** from the same window.
 
+## Models
+
+The costs below are what a Tester account is charged. Free means the model never uses a request.
+
+### Chat models (41)
+
+Pick any of these in a normal chat. A message costs the number shown.
+
+| Model | Requests per message | Vision | Agent mode |
+|---|---:|:---:|:---:|
+| DAI Gemini 2.5 Flash Lite | Free | Yes | - |
+| Ernie 5.1 | Free | Yes | - |
+| MiniMax M2.5 | Free | Yes | - |
+| DeepSeek V4 Flash Ext Server | 0.5 | - | - |
+| GPT-5.1 | 0.5 | Yes | - |
+| GPT-5.2 | 0.5 | Yes | - |
+| GPT-5.4 Mini | 0.5 | Yes | - |
+| GPT-5.4 Nano | 0.5 | Yes | - |
+| GPT-5.4-Mini | 0.5 | Yes | - |
+| DeepSeek V4 Flash | 1 | Yes | Yes |
+| DeepSeek V4 Flash Ext Server 2 | 1 | Yes | - |
+| DeepSeek V4 Pro Ext Server | 1 | - | - |
+| Gemini 2.5 Flash | 1 | Yes | Yes |
+| Gemini 2.5 Pro | 1 | Yes | Yes |
+| Gemini 3 Flash Preview | 1 | Yes | Yes |
+| Gemini 3.5 Flash | 1 | Yes | Yes |
+| Gemini 3.8 Flash | 1 | Yes | Yes |
+| GLM 5.2 | 1 | Yes | Yes |
+| Mercury 2.5 Preview | 1 | Yes | - |
+| Muse Spark 1.2 | 1 | Yes | - |
+| Grok 4.20 | 1.2 | Yes | - |
+| Grok 4.3 | 1.3 | Yes | - |
+| Claude Haiku 4.5 | 1.5 | Yes | - |
+| DeepSeek V4 Pro | 1.5 | Yes | - |
+| Grok Build 0.1 | 1.5 | Yes | - |
+| Qwen 3.7 Plus | 1.5 | Yes | Yes |
+| Qwen 3.8 Omni Flash | 1.7 | Yes | Yes |
+| Claude Sonnet 4 | 2 | Yes | - |
+| GPT-5.6 Luna V1 | 2 | Yes | Yes |
+| MiniMax M3 | 2 | Yes | - |
+| Qwen 3.8 Max | 2 | Yes | Yes |
+| Claude Sonnet 4.5 | 2.5 | Yes | - |
+| GPT-6 Luna | 2.5 | Yes | Yes |
+| Kimi K3 | 2.5 | Yes | - |
+| Claude Sonnet 4.6 | 3 | Yes | - |
+| GPT-5.6 Sol | 3 | Yes | Yes |
+| GPT-5.6 Terra V1 | 3 | Yes | Yes |
+| GPT-6 Sol | 3.5 | Yes | Yes |
+| GPT-6.1 Sol | 4 | Yes | Yes |
+| Gemini 4 Argon | 5 | Yes | - |
+| GPT-6 Astra | 5 | Yes | Yes |
+
+### Agent mode models (17)
+
+These can read and edit files in your project folder. Agent mode uses **one request per step** at the model's cost, so a 10-step task on a 3-request model uses 30 requests.
+
+| Model | Requests per step | Vision |
+|---|---:|:---:|
+| DeepSeek V4 Flash | 1 | Yes |
+| Gemini 2.5 Flash | 1 | Yes |
+| Gemini 2.5 Pro | 1 | Yes |
+| Gemini 3 Flash Preview | 1 | Yes |
+| Gemini 3.5 Flash | 1 | Yes |
+| Gemini 3.8 Flash | 1 | Yes |
+| GLM 5.2 | 1 | Yes |
+| Qwen 3.7 Plus | 1.5 | Yes |
+| Qwen 3.8 Omni Flash | 1.7 | Yes |
+| GPT-5.6 Luna V1 | 2 | Yes |
+| Qwen 3.8 Max | 2 | Yes |
+| GPT-6 Luna | 2.5 | Yes |
+| GPT-5.6 Sol | 3 | Yes |
+| GPT-5.6 Terra V1 | 3 | Yes |
+| GPT-6 Sol | 3.5 | Yes |
+| GPT-6.1 Sol | 4 | Yes |
+| GPT-6 Astra | 5 | Yes |
+
 ## Install
 
 1. Download **`AeroScan AI-Beta-Setup-…-x64.exe`** from the [latest release](https://github.com/adminaeroscan/aeroscan-beta/releases/latest). Prefer no install? Take the **Portable** file instead.
