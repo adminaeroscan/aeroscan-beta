@@ -16,19 +16,30 @@
 
 <div align="center">
 
-<img src="docs/01-chat-model-costs.png" alt="Chat with the model picker showing each model's request cost" width="860">
+<img src="docs/home.png" alt="The AeroScan AI home screen" width="860">
 
-<sub>Every model shows what one message costs before you send it.</sub>
+<sub><b>Home</b>: requests left today, savings, recent chats and your plan at a glance.</sub>
 
-<img src="docs/02-agent-mode.png" alt="Agent mode working in a project folder" width="860">
+<img src="docs/agent-chat.png" alt="Agent mode after building a feature" width="860">
 
-<sub>Agent mode works inside your project folder: it plans tasks, edits files, runs your tests, and lets you review or undo every change.</sub>
+<sub><b>Agent mode</b> works in your project folder: it plans tasks, edits files, runs your tests, and you can review, undo or commit every change.</sub>
 
-<img src="docs/03-projects.png" alt="The Projects page with to-dos, notes and the agent" width="860">
+<img src="docs/projects.png" alt="The Projects page" width="860">
 
-<sub>Projects keep to-dos, milestones, notes, chats and the agent together.</sub>
+<sub><b>Projects</b> keep to-dos, notes, links, chats and agent work together, with an AI summary of the codebase.</sub>
 
-<sub><i>Screenshots use sample chat and project content. The model list and request costs are the real beta catalog.</i></sub>
+<img src="docs/chat.png" alt="A chat with live web search" width="860">
+
+<sub><b>Chat</b> with live web search, with the request cost of every reply shown.</sub>
+
+<img src="docs/models.png" alt="The Models page" width="860">
+
+<sub><b>41 models</b>, each with its cost per message, context size and capabilities.</sub>
+
+<img src="docs/usage.png" alt="The Usage page" width="860">
+
+<sub><b>Usage</b>: requests left today, resets left this month, and usage by model.</sub>
+
 
 </div>
 
