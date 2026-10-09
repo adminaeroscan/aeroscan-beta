@@ -144,7 +144,7 @@ Requires Windows 10 or 11, 64-bit.
 Every release lists the SHA-256 hash of each file in its notes. In PowerShell:
 
 ```powershell
-Get-FileHash "AeroScan AI-Beta-Setup-1.0.0-beta.1-x64.exe" -Algorithm SHA256
+Get-FileHash "AeroScan AI-Beta-Setup-1.0.0-beta.2-x64.exe" -Algorithm SHA256
 ```
 
 The result must match the hash in the [release notes](https://github.com/adminaeroscan/aeroscan-beta/releases/latest).
