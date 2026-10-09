@@ -46,7 +46,7 @@ We are looking for **20 testers**. The first 20 people to register in the app ge
 | Daily token limit | none |
 | Models | every model on the platform |
 
-When the 20 spots are gone, registration closes. The [download page](https://ai.aeroscan.co.za/download) shows how many are left.
+Tester access is valid for 7 days from when your key is created, then the account returns to the Free plan. When the 20 spots are gone, registration closes. The [download page](https://ai.aeroscan.co.za/download) shows how many are left.
 
 ## What you get
 
