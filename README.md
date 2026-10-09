@@ -1,78 +1,84 @@
 <div align="center">
 
-# AeroScan AI
+<a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/banner.png" alt="AeroScan AI: AI chat and a coding agent, right on your desktop. 40+ AI models, an agent that builds inside your own project folders, and image generation." width="100%"></a>
 
-**A Windows desktop app for working with AI: chat, an agent that works in your projects, and image generation, all in one place.**
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 96 MB)" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Portable-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
+<a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page with live tester spots" height="64"></a>
 
-[![Latest release](https://img.shields.io/github/v/release/adminaeroscan/aeroscan-beta?include_prereleases&label=beta&color=7c3aed)](https://github.com/adminaeroscan/aeroscan-beta/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/adminaeroscan/aeroscan-beta/total?color=2f6fe4)](https://github.com/adminaeroscan/aeroscan-beta/releases)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078d4)
-
-### [⬇ Download the beta](https://github.com/adminaeroscan/aeroscan-beta/releases/latest) &nbsp;·&nbsp; [Website download page](https://ai.aeroscan.co.za/download)
+<sub>Version 1.0.0-beta.2 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
 
 </div>
 
----
+<br>
 
-<div align="center">
+### GET STARTED
+## Up and running in two minutes
 
-<img src="docs/home.png" alt="The AeroScan AI home screen" width="860">
+<img src="docs/brand/steps.png" alt="1. Download and run: on a SmartScreen warning click More info, then Run anyway. 2. Register with your email: the first 20 people get the Tester plan for free. 3. Pick a model and go." width="100%">
 
-<sub><b>Home</b>: requests left today, savings, recent chats and your plan at a glance.</sub>
+<br>
 
-<img src="docs/agent-chat.png" alt="Agent mode after building a feature" width="860">
+### WHAT YOU GET
+## Everything in one window
 
-<sub><b>Agent mode</b> works in your project folder: it plans tasks, edits files, runs your tests, and you can review, undo or commit every change.</sub>
+No browser tabs, no copy-pasting code. Work happens on your own machine, in your own folders.
 
-<img src="docs/projects.png" alt="The Projects page" width="860">
+#### Agent mode: an agent that works in your project
 
-<sub><b>Projects</b> keep to-dos, notes, links, chats and agent work together, with an AI summary of the codebase.</sub>
+Give it a task and it plans, edits files, runs your tests and reports back.
 
-<img src="docs/chat.png" alt="A chat with live web search" width="860">
+- ✅ Reads, writes and builds in a folder you choose
+- ✅ Review, undo or commit every change it makes
+- ✅ Stops when the checks pass, so it doesn't waste requests
 
-<sub><b>Chat</b> with live web search, with the request cost of every reply shown.</sub>
+<img src="docs/agent-chat.png" alt="Agent mode after building a feature: 7 changed files with review, undo and commit, and the task list all done" width="100%">
 
-<img src="docs/models.png" alt="The Models page" width="860">
+#### Projects: keep each project together
 
-<sub><b>41 models</b>, each with its cost per message, context size and capabilities.</sub>
+To-dos, milestones, notes, links, chats and agent runs live in one place for each folder. Start an agent chat straight from a to-do.
 
-<img src="docs/usage.png" alt="The Usage page" width="860">
+- ✅ To-dos and milestones with progress
+- ✅ Feature ideas for your project, one click to build
+- ✅ Git status and an AI summary of the project
 
-<sub><b>Usage</b>: requests left today, resets left this month, and usage by model.</sub>
+<img src="docs/projects.png" alt="The Projects page: to-do progress, agent status, changed files and an AI summary" width="100%">
 
+#### A closer look
 
-</div>
+<table>
+<tr>
+<td width="33%" valign="top"><a href="docs/chat.png"><img src="docs/chat.png" alt="A chat that searched the web"></a><br><b>Chat with live web search</b><br><sub>Ask about today and it looks it up, with the cost of every reply shown.</sub></td>
+<td width="33%" valign="top"><a href="docs/models.png"><img src="docs/models.png" alt="The Models page"></a><br><b>41 models, priced up front</b><br><sub>Filter by cost, vision, tools or thinking before you pick one.</sub></td>
+<td width="33%" valign="top"><a href="docs/usage.png"><img src="docs/usage.png" alt="The Usage page"></a><br><b>Always know what's left</b><br><sub>Requests left today, resets, and usage by model.</sub></td>
+</tr>
+<tr>
+<td valign="top"><b>40+ models</b><br><sub>Switch models in a click. The cost is shown on every one.</sub></td>
+<td valign="top"><b>Images and vision</b><br><sub>Generate images, or paste a screenshot and ask about it.</sub></td>
+<td valign="top"><b>Your files stay local</b><br><sub>The agent works in folders you choose, on your PC.</sub></td>
+</tr>
+</table>
 
----
+<img src="docs/home.png" alt="The home screen: requests left today, savings, recent chats, your plan and top models" width="100%">
 
-## 🧪 Closed beta: first 20 testers get free access
+<br>
 
-We are looking for **20 testers**. The first 20 people to register in the app get the **Tester plan** for free:
+### CLOSED BETA
+## The Tester plan, free for the first 20
 
-| Tester plan | |
-|---|---|
-| Requests per day | **1,000** |
-| Resets of the daily count | **3 per month** |
-| Images / videos / music per day | 10 each |
-| Daily token limit | none |
-| Models | every model on the platform |
+<img src="docs/brand/plan.png" alt="Tester plan, free for 7 days: 1,000 requests per day, 3 daily-count resets per month, 10 images, videos and music per day, no token limit, every model." width="100%">
 
-Tester access is valid for 7 days from when your key is created, then the account returns to the Free plan. When the 20 spots are gone, registration closes. The [download page](https://ai.aeroscan.co.za/download) shows how many are left.
+Register in the app while spots are open and you get full access for 7 days, then the account moves to the Free plan. When the 20 spots are gone, registration closes. The **[download page](https://ai.aeroscan.co.za/download)** shows how many are left, live.
 
-## What you get
+<br>
 
-- **Chat** with many AI models from one app. Each model shows its request cost next to its name, so you know what a message will use before you send it.
-- **Agent mode** that works inside your own project folders: it reads, edits and builds. It uses one request per step, so watch the cost of big builds.
-- **Projects** page to keep a project's chats, notes, code and agent work together.
-- **Image generation** from the same window.
+### MODELS
+## What each model costs
 
-## Models
+A chat message uses the number of requests shown. In agent mode, every step uses that many, so a 10-step task on a 3-request model uses 30. Free models never use a request.
 
-The costs below are what a Tester account is charged. Free means the model never uses a request.
-
-### Chat models (41)
-
-Pick any of these in a normal chat. A message costs the number shown.
+<details>
+<summary><b>Chat models (41)</b>: sorted by cost</summary>
 
 | Model | Requests per message | Vision | Agent mode |
 |---|---:|:---:|:---:|
@@ -118,9 +124,10 @@ Pick any of these in a normal chat. A message costs the number shown.
 | Gemini 4 Argon | 5 | Yes | - |
 | GPT-6 Astra | 5 | Yes | Yes |
 
-### Agent mode models (17)
+</details>
 
-These can read and edit files in your project folder. Agent mode uses **one request per step** at the model's cost, so a 10-step task on a 3-request model uses 30 requests.
+<details>
+<summary><b>Agent mode models (17)</b>: can read, edit and run in your project</summary>
 
 | Model | Requests per step | Vision |
 |---|---:|:---:|
@@ -142,44 +149,41 @@ These can read and edit files in your project folder. Agent mode uses **one requ
 | GPT-6.1 Sol | 4 | Yes |
 | GPT-6 Astra | 5 | Yes |
 
-## Install
+</details>
 
-1. Download **`AeroScan AI-Beta-Setup-…-x64.exe`** from the [latest release](https://github.com/adminaeroscan/aeroscan-beta/releases/latest). Prefer no install? Take the **Portable** file instead.
-2. Run it. Windows SmartScreen will warn you because the beta is **not code-signed yet**: click **More info**, then **Run anyway**.
-3. Open AeroScan AI and register with your email. You'll get your tester key automatically.
+<br>
 
-Requires Windows 10 or 11, 64-bit.
+### VERIFY
+## Check your download
 
-### Verify your download
-
-Every release lists the SHA-256 hash of each file in its notes. In PowerShell:
+The beta isn't code-signed yet, which is why Windows shows a warning. To make sure the file is exactly ours, compare its SHA-256 hash with the one in the [release notes](https://github.com/adminaeroscan/aeroscan-beta/releases/latest):
 
 ```powershell
-Get-FileHash "AeroScan AI-Beta-Setup-1.0.0-beta.2-x64.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe" -Algorithm SHA256
 ```
 
-The result must match the hash in the [release notes](https://github.com/adminaeroscan/aeroscan-beta/releases/latest).
+<br>
 
-## Feedback wanted
+### FAQ
+## Questions
 
-This is a beta, so expect rough edges. The most useful reports cover:
+<details><summary><b>Is it free?</b></summary><br>Yes. The first 20 people to register get the Tester plan free for 7 days, then their account moves to the Free plan. Paid plans come later.</details>
+<details><summary><b>Why does Windows say it "protected your PC"?</b></summary><br>The beta isn't code-signed yet, and SmartScreen warns about new unsigned apps. Click <b>More info</b>, then <b>Run anyway</b>. To be sure, check the file's hash as shown above.</details>
+<details><summary><b>What counts as a request?</b></summary><br>Each chat message uses the request cost of the model you picked; free models use none. In agent mode, every step the agent takes uses the model's cost.</details>
+<details><summary><b>Where do my files go?</b></summary><br>The agent only works in the project folder you choose, on your own PC. You review its changes and can undo them.</details>
+<details><summary><b>Is the source code available?</b></summary><br>Not at the moment. This repository holds release builds only.</details>
+<details><summary><b>Mac or Linux?</b></summary><br>Windows 10 and 11 (64-bit) only for now.</details>
 
-- the first-run setup,
-- agent mode,
-- the projects page.
+<br>
 
-👉 **[Open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)** with what you did, what you expected, and what happened. A screenshot helps.
+<div align="center">
 
-## FAQ
+## Try it while the spots last
 
-**Is it free?** Yes during the beta, for the first 20 registrants. Paid plans are planned for later.
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
 
-**Is the source code available?** Not at the moment. This repository holds release builds only.
+Found a bug or have an idea? **[Open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)**: say what you did, what you expected and what happened. A screenshot helps.
 
-**Why the SmartScreen warning?** Signing certificates cost money and the beta is new. Use the hash check above if you want to confirm the file.
+<sub>AeroScan AI · <a href="https://ai.aeroscan.co.za/download">ai.aeroscan.co.za</a></sub>
 
-**Mac or Linux?** Windows only for now.
-
----
-
-<div align="center">AeroScan AI · <a href="https://ai.aeroscan.co.za/download">ai.aeroscan.co.za</a></div>
+</div>
