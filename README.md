@@ -2,14 +2,26 @@
 
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/banner.png" alt="AeroScan AI: AI chat and a coding agent, right on your desktop. 40+ AI models, an agent that builds inside your own project folders, and image generation." width="100%"></a>
 
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 96 MB)" height="64"></a>
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Portable-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.3/AeroScan.AI-Beta-Setup-1.0.0-beta.3-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 96 MB)" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.3/AeroScan.AI-Beta-Portable-1.0.0-beta.3-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page with live tester spots" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
-<sub>Version 1.0.0-beta.2 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
+<sub>Version 1.0.0-beta.3 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
 
 </div>
+
+<br>
+
+### NEW IN BETA 3
+## It works while you sleep, and in VS Code
+
+- 🌙 **Night Shift**: requests you don't use expire at midnight UTC. Night Shift spends them on your project's to-dos while you sleep, each on its own git branch, ready for you to review in the morning.
+- 🧩 **AeroScan Agent in VS Code**: pick "AeroScan Agent" in Copilot Chat and the app's own agent works on the folder you have open, with every step shown in the chat.
+- 🔎 **Reads the web properly**: the agent opens the links you give it first, and can dig into a page's source and JavaScript files for the data behind it.
+- 🛠️ **Fixes**: text boxes no longer stop taking typing after an agent run, and links and file names in replies stay exactly as written.
+
+Already on beta 2? The app updates itself: open it and click **Update** when it asks.
 
 <br>
 
@@ -160,7 +172,7 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 The beta isn't code-signed yet, which is why Windows shows a warning. To make sure the file is exactly ours, compare its SHA-256 hash with the one in the [release notes](https://github.com/adminaeroscan/aeroscan-beta/releases/latest):
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.3-x64.exe" -Algorithm SHA256
 ```
 
 <br>
@@ -174,6 +186,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64
 <details><summary><b>Where do my files go?</b></summary><br>The agent only works in the project folder you choose, on your own PC. You review its changes and can undo them.</details>
 <details><summary><b>Is the source code available?</b></summary><br>Not at the moment. This repository holds release builds only.</details>
 <details><summary><b>Where do I get help or report a bug?</b></summary><br>Join our <a href="https://discord.gg/DWYhRmu9Dz">Discord</a>: testers get their own channels for bug reports, feature requests and agent mode. You can also open an issue here on GitHub.</details>
+<details><summary><b>Can I use it in VS Code?</b></summary><br>Yes. In the app, open Settings → Integrations and click <b>Add to VS Code</b> (or <b>Update</b>). Your models, plus "AeroScan Agent" versions of the agent models, appear in Copilot Chat's model picker. Paste your API key once when VS Code asks. Keep the app open while you use the AeroScan Agent models.</details>
 <details><summary><b>Mac or Linux?</b></summary><br>Windows 10 and 11 (64-bit) only for now.</details>
 
 <br>
@@ -182,7 +195,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64
 
 ## Try it while the spots last
 
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.2/AeroScan.AI-Beta-Setup-1.0.0-beta.2-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.3/AeroScan.AI-Beta-Setup-1.0.0-beta.3-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
 Found a bug or have an idea? Tell us in **[Discord](https://discord.gg/DWYhRmu9Dz)** or **[open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)**: say what you did, what you expected and what happened. A screenshot helps.
