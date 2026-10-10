@@ -2,29 +2,28 @@
 
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/banner.png" alt="AeroScan AI: AI chat and a coding agent, right on your desktop. 40+ AI models, an agent that builds inside your own project folders, and image generation." width="100%"></a>
 
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.4/AeroScan.AI-Beta-Setup-1.0.0-beta.4-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 96 MB)" height="64"></a>
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.4/AeroScan.AI-Beta-Portable-1.0.0-beta.4-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.5/AeroScan.AI-Beta-Setup-1.0.0-beta.5-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 96 MB)" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.5/AeroScan.AI-Beta-Portable-1.0.0-beta.5-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page with live tester spots" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
-<sub>Version 1.0.0-beta.4 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
+<sub>Version 1.0.0-beta.5 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
 
 </div>
 
 <br>
 
-### NEW IN BETA 4
-## Chat that checks the web, and shows its sources
+### NEW IN BETA 5
+## Updates that just work, and your project's files at hand
 
-- 🔎 **Reads the web properly**: chat opens the links you paste and reads the top search results, not just snippets, with a live list of what it is doing.
-- 📚 **Sources you can check**: answers cite their sources as [1], [2]; click one to open it, and see them all as cards under the answer.
-- 🌐 **Searches by itself**: for news, prices, people and names it searches first, and if a model says it doesn't know, it searches and answers again.
-- ✨ **Better answers**: a clearer layout, suggested follow-up questions, math formulas and diagrams.
-- 🛠️ **Also new**: see when your Tester plan ends, and the app waits for the internet and the server instead of failing half-way.
+- 🔄 **Updates checked as the app starts**: the start-up screen checks for a new version, and offers it the moment the app opens.
+- ♻️ **Reopens after updating**: "Restart to update" installs and opens the app again.
+- 📁 **Files tab in agent mode**: find any file in the project, see what the agent changed in this chat, and add a file to your message in one click.
+- 🛠️ **Fix**: the jump-to-bottom button no longer hides under the message box.
 
-Already on beta 3? The app checks for updates when it starts: click **Update** when it asks.
+Updating from beta 4? After **Restart to update**, open the app yourself once if it doesn't come back on its own. From beta 5 on it reopens by itself.
 
-Beta 3 brought **Night Shift** (your to-dos worked on while you sleep) and the **AeroScan Agent in VS Code**.
+Beta 4 brought **chat that reads the web and cites its sources**, searching by itself, math and diagrams. Beta 3 brought **Night Shift** and the **AeroScan Agent in VS Code**.
 
 <br>
 
@@ -175,7 +174,7 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 The beta isn't code-signed yet, which is why Windows shows a warning. To make sure the file is exactly ours, compare its SHA-256 hash with the one in the [release notes](https://github.com/adminaeroscan/aeroscan-beta/releases/latest):
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.4-x64.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.5-x64.exe" -Algorithm SHA256
 ```
 
 <br>
@@ -198,7 +197,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.4-x64
 
 ## Try it while the spots last
 
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.4/AeroScan.AI-Beta-Setup-1.0.0-beta.4-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.5/AeroScan.AI-Beta-Setup-1.0.0-beta.5-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
 Found a bug or have an idea? Tell us in **[Discord](https://discord.gg/DWYhRmu9Dz)** or **[open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)**: say what you did, what you expected and what happened. A screenshot helps.
