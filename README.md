@@ -2,29 +2,26 @@
 
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/banner.png" alt="AeroScan AI: AI chat and a coding agent, right on your desktop. 40+ AI models, an agent that builds inside your own project folders, and image generation." width="100%"></a>
 
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.8/AeroScan.AI-Beta-Setup-1.0.0-beta.8-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 97 MB)" height="64"></a>
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.8/AeroScan.AI-Beta-Portable-1.0.0-beta.8-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.9/AeroScan.AI-Beta-Setup-1.0.0-beta.9-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 97 MB)" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.9/AeroScan.AI-Beta-Portable-1.0.0-beta.9-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page with live tester spots" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
-<sub>Version 1.0.0-beta.8 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
+<sub>Version 1.0.0-beta.9 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
 
 </div>
 
 <br>
 
-### NEW IN BETA 8
-## Build websites with AI, and work on servers too
+### NEW IN BETA 9
+## Plan a site with a wizard, and a Desk widget that answers back
 
-- 🎨 **Design mode**: describe a website, or start from a web address or a screenshot, and watch it appear live, section by section. Click any part of the page to change just that part, or type over the text yourself.
-- 🧩 **Pages, sections and your own images**: add pages, drop in ready-made sections (hero, pricing, FAQ…), and move sections up and down.
-- 🖌️ **A style tab**: pick a look, then change colours, fonts, corners and spacing for the whole site at once. A brand kit goes with every request.
-- 🕑 **History, Check and Code**: preview and restore any earlier version, check for broken links and hard-to-read colours, and edit the files by hand. Export a .zip, or one page as a single .html file.
-- 🖥️ **The agent on a server over SSH**: choose a folder on a server with a password or a key, and the agent reads, edits, runs commands and uses git there.
-- 🔗 **Linked folders**: link a backend on a server to your frontend on this PC, and the agent works in both in one task.
-- 🔌 **Your own providers** (paid plans), a **Desk widget** for a second screen, and **Left undone**, which shows what an agent turn did not finish.
+- 🧙 **A new-site wizard**: five short steps, and the AI writes a full build prompt you can read and edit before it builds. Sites stop starting from the same hero-and-three-cards layout. Or paste your own prompt.
+- 🪐 **A more alive Desk widget**: a 3D look that switches itself off on a slow machine, one clear status card and a clock card. When the agent is waiting, answer from the widget: pick a choice, approve a step or type a reply.
+- 🚀 **A calmer start-up**: a small splash at once, a window that can no longer stay hidden, and "Reading the picture" with a live timer when a chat carries images. Linked servers connect only when used.
+- 🧱 **Apps with a real interface**: apps built through Specs get an app shell, light and dark themes, icons, sample data and designed empty, loading and error states.
 
-Beta 7 brought **specs, Focus windows and a phone remote**. Beta 6 made **the agent get on with it**. Beta 5 brought **update checks at start-up** and a **Files tab** in agent mode. Beta 4 brought **chat that reads the web and cites its sources**.
+Beta 8 brought **Design mode, the agent on a server over SSH and linked folders**. Beta 7 brought **specs, Focus windows and a phone remote**. Beta 6 made **the agent get on with it**. Beta 5 brought **update checks at start-up** and a **Files tab** in agent mode. Beta 4 brought **chat that reads the web and cites its sources**.
 
 <br>
 
@@ -175,7 +172,7 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 The beta isn't code-signed yet, which is why Windows shows a warning. To make sure the file is exactly ours, compare its SHA-256 hash with the one in the [release notes](https://github.com/adminaeroscan/aeroscan-beta/releases/latest):
 
 ```powershell
-Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.8-x64.exe" -Algorithm SHA256
+Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.9-x64.exe" -Algorithm SHA256
 ```
 
 <br>
@@ -198,7 +195,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.8-x64
 
 ## Try it while the spots last
 
-<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.8/AeroScan.AI-Beta-Setup-1.0.0-beta.8-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
+<a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.9/AeroScan.AI-Beta-Setup-1.0.0-beta.9-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
 Found a bug or have an idea? Tell us in **[Discord](https://discord.gg/DWYhRmu9Dz)** or **[open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)**: say what you did, what you expected and what happened. A screenshot helps.
