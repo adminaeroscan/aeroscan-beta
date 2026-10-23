@@ -45,17 +45,60 @@ Give it a task and it plans, edits files, runs your tests and reports back.
 - ✅ Review, undo or commit every change it makes
 - ✅ Stops when the checks pass, so it doesn't waste requests
 
-<img src="docs/agent-chat.png" alt="Agent mode after building a feature: 7 changed files with review, undo and commit, and the task list all done" width="100%">
+<img src="docs/agent-chat.webp" alt="Agent mode after a finished task: what it changed, the files, the cost, and the live preview beside the chat" width="100%">
+
+#### Spec mode: plan it first, then build it task by task
+
+Describe a feature and get requirements, a design and a task list. Then build the tasks one at a time, or all of them, and watch each one tick off with its files, cost and commit.
+
+- ✅ Requirements, design and tasks you can read and edit
+- ✅ Every task shows its changed files, time, requests and commit
+- ✅ Review the changes of any task, or build the rest in one go
+
+<img src="docs/agent-spec.webp" alt="Spec mode: eight finished task cards showing their changed files, time, requests and commits" width="100%">
+
+#### Live preview: point at the part you want changed
+
+The agent reloads your running app as it works. Use Point & change to click any part of it, say what should be different, and send it to the agent. Electron apps open in their own window too.
+
+- ✅ Click an element, then describe the change in words
+- ✅ Full, tablet and phone sizes
+- ✅ The preview reloads when the agent changes files
+
+<img src="docs/app-preview.webp" alt="The agent preview of a spreadsheet app with Point and change: a picked ribbon panel and a box to say what should change" width="100%">
+
+#### Design mode: build a website and watch it appear
+
+Describe a site, or plan it with the wizard, and see it written live. Click any part of the page to change just that part, restyle the whole site, and export it when you are happy.
+
+- ✅ Pages, sections, your own images and a style panel
+- ✅ History you can restore, and a check for broken links
+- ✅ Desktop, tablet and phone previews
+
+<img src="docs/design.webp" alt="Design mode: a cinematic gaming-PC landing page built live, with the chat on the left and the page on the right" width="100%">
+
+#### Desk widget: follow your agent on a second screen
+
+A widget for another monitor shows what the agent is doing, how far it has got and what it is waiting for. It works in portrait on a 1080p screen and in landscape on a 1440p one, and you can answer the agent from it.
+
+- ✅ Live progress, checks and a clock
+- ✅ Approve a step or type a reply from the widget
+- ✅ Portrait, landscape, mini and full screen
+
+<img src="docs/widget-landscape.webp" alt="The Desk widget in landscape on a 1440p screen: clock, finished task card and a live list around a glowing progress globe" width="100%">
+
+<p align="center"><img src="docs/widget-portrait.webp" alt="The Desk widget in portrait on a 1080p screen" width="300"></p>
 
 #### Projects: keep each project together
 
 To-dos, milestones, notes, links, chats and agent runs live in one place for each folder. Start an agent chat straight from a to-do.
 
 - ✅ To-dos and milestones with progress
+- ✅ A task queue and schedules (Automate): queued to-dos run one at a time in their own copy of the project
 - ✅ Feature ideas for your project, one click to build
 - ✅ Git status and an AI summary of the project
 
-<img src="docs/projects.png" alt="The Projects page: to-do progress, agent status, changed files and an AI summary" width="100%">
+<img src="docs/projects.webp" alt="The Projects page: to-do progress, running dev servers, the agent status, notes and the chats in the project" width="100%">
 
 #### A closer look
 
@@ -72,7 +115,7 @@ To-dos, milestones, notes, links, chats and agent runs live in one place for eac
 </tr>
 </table>
 
-<img src="docs/home.png" alt="The home screen: requests left today, savings, recent chats, your plan and top models" width="100%">
+<img src="docs/home.webp" alt="The home screen: requests left today, savings, recent chats, your rank, your plan and top models" width="100%">
 
 <br>
 
