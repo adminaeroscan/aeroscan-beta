@@ -91,29 +91,46 @@ Register in the app while spots are open and you get full access for 7 days, the
 A chat message uses the number of requests shown. In agent mode, every step uses that many, so a 10-step task on a 3-request model uses 30. Free models never use a request.
 
 <details>
-<summary><b>Chat models (41)</b>: sorted by cost</summary>
+<summary><b>Chat models (60)</b>: sorted by cost</summary>
 
 | Model | Requests per message | Vision | Agent mode |
 |---|---:|:---:|:---:|
-| DAI Gemini 2.5 Flash Lite | Free | Yes | - |
+| Auto Free | Free | - | - |
+| Beam 1.0 | Free | - | - |
+| Comfy 35B | Free | - | - |
+| DeepSeek V4.1 Flash | Free | Yes | - |
 | Ernie 5.1 | Free | Yes | - |
+| Flint | Free | Yes | Yes |
+| GLM 5.3 Flash | Free | Yes | - |
+| Glyph Cluster | Free | Yes | - |
+| Laguna S 2.1 | Free | Yes | - |
+| LFM2.5-2.6B | Free | Yes | - |
 | MiniMax M2.5 | Free | Yes | - |
+| Nemotron 3 Ultra | Free | Yes | Yes |
+| Nemotron 3.5 Lightning | Free | Yes | Yes |
+| Nemotron 3.5 Super VL | Free | Yes | Yes |
+| North Mini Code | Free | Yes | - |
+| OpenRouter Free Models Router | Free | Yes | - |
+| Qwen 3.8 Flash | Free | Yes | - |
+| Reka Flash | Free | Yes | - |
+| Tencent Hy3 | Free | - | - |
 | DeepSeek V4 Flash Ext Server | 0.5 | - | - |
 | GPT-5.1 | 0.5 | Yes | - |
 | GPT-5.2 | 0.5 | Yes | - |
 | GPT-5.4 Mini | 0.5 | Yes | - |
 | GPT-5.4 Nano | 0.5 | Yes | - |
-| GPT-5.4-Mini | 0.5 | Yes | - |
-| DeepSeek V4 Flash | 1 | Yes | Yes |
+| DeepSeek V4 Flash | 1 | Yes | - |
 | DeepSeek V4 Flash Ext Server 2 | 1 | Yes | - |
 | DeepSeek V4 Pro Ext Server | 1 | - | - |
-| Gemini 2.5 Flash | 1 | Yes | Yes |
-| Gemini 2.5 Pro | 1 | Yes | Yes |
-| Gemini 3 Flash Preview | 1 | Yes | Yes |
-| Gemini 3.5 Flash | 1 | Yes | Yes |
+| DeepSeek V4 Pro Ext Server 2 | 1 | Yes | - |
+| Gemini 2.5 Flash | 1 | Yes | - |
+| Gemini 2.5 Pro | 1 | Yes | - |
+| Gemini 3 Flash Preview | 1 | Yes | - |
+| Gemini 3.5 Flash | 1 | Yes | - |
 | Gemini 3.8 Flash | 1 | Yes | Yes |
-| GLM 5.2 | 1 | Yes | Yes |
+| GLM 5.2 | 1 | Yes | - |
 | Mercury 2.5 Preview | 1 | Yes | - |
+| MiniMax M2.7 | 1 | Yes | - |
 | Muse Spark 1.2 | 1 | Yes | - |
 | Grok 4.20 | 1.2 | Yes | - |
 | Grok 4.3 | 1.3 | Yes | - |
@@ -122,45 +139,48 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 | Grok Build 0.1 | 1.5 | Yes | - |
 | Qwen 3.7 Plus | 1.5 | Yes | Yes |
 | Qwen 3.8 Omni Flash | 1.7 | Yes | Yes |
-| Claude Sonnet 4 | 2 | Yes | - |
 | GPT-5.6 Luna V1 | 2 | Yes | Yes |
 | MiniMax M3 | 2 | Yes | - |
 | Qwen 3.8 Max | 2 | Yes | Yes |
 | Claude Sonnet 4.5 | 2.5 | Yes | - |
 | GPT-6 Luna | 2.5 | Yes | Yes |
 | Kimi K3 | 2.5 | Yes | - |
+| Claude Haiku 5.5 | 3 | - | Yes |
 | Claude Sonnet 4.6 | 3 | Yes | - |
 | GPT-5.6 Sol | 3 | Yes | Yes |
 | GPT-5.6 Terra V1 | 3 | Yes | Yes |
 | GPT-6 Sol | 3.5 | Yes | Yes |
 | GPT-6.1 Sol | 4 | Yes | Yes |
+| Claude Sonnet 5.5 | 5 | Yes | Yes |
 | Gemini 4 Argon | 5 | Yes | - |
 | GPT-6 Astra | 5 | Yes | Yes |
+| Claude Opus 5.5 | 7 | - | Yes |
 
 </details>
 
 <details>
-<summary><b>Agent mode models (17)</b>: can read, edit and run in your project</summary>
+<summary><b>Agent mode models (18)</b>: can read, edit and run in your project</summary>
 
 | Model | Requests per step | Vision |
 |---|---:|:---:|
-| DeepSeek V4 Flash | 1 | Yes |
-| Gemini 2.5 Flash | 1 | Yes |
-| Gemini 2.5 Pro | 1 | Yes |
-| Gemini 3 Flash Preview | 1 | Yes |
-| Gemini 3.5 Flash | 1 | Yes |
+| Flint | Free | Yes |
+| Nemotron 3 Ultra | Free | Yes |
+| Nemotron 3.5 Lightning | Free | Yes |
+| Nemotron 3.5 Super VL | Free | Yes |
 | Gemini 3.8 Flash | 1 | Yes |
-| GLM 5.2 | 1 | Yes |
 | Qwen 3.7 Plus | 1.5 | Yes |
 | Qwen 3.8 Omni Flash | 1.7 | Yes |
 | GPT-5.6 Luna V1 | 2 | Yes |
 | Qwen 3.8 Max | 2 | Yes |
 | GPT-6 Luna | 2.5 | Yes |
+| Claude Haiku 5.5 | 3 | - |
 | GPT-5.6 Sol | 3 | Yes |
 | GPT-5.6 Terra V1 | 3 | Yes |
 | GPT-6 Sol | 3.5 | Yes |
 | GPT-6.1 Sol | 4 | Yes |
+| Claude Sonnet 5.5 | 5 | Yes |
 | GPT-6 Astra | 5 | Yes |
+| Claude Opus 5.5 | 7 | - |
 
 </details>
 
