@@ -4,7 +4,7 @@
 
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.10/AeroScan.AI-Beta-Setup-1.0.0-beta.10-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 97 MB)" height="64"></a>
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.10/AeroScan.AI-Beta-Portable-1.0.0-beta.10-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
-<a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page with live tester spots" height="64"></a>
+<a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
 <sub>Version 1.0.0-beta.10 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
@@ -28,7 +28,9 @@ Beta 9 brought **the new-site wizard, a more alive Desk widget and a calmer star
 ### GET STARTED
 ## Up and running in two minutes
 
-<img src="docs/brand/steps.png" alt="1. Download and run: on a SmartScreen warning click More info, then Run anyway. 2. Register with your email: the first 20 people get the Tester plan for free. 3. Pick a model and go." width="100%">
+1. **Download and run.** If Windows SmartScreen warns, click **More info**, then **Run anyway**.
+2. **Register with your email**, in the app or on the [website](https://ai.aeroscan.co.za/account). Confirm the link we email you, then sign in. It is free for everyone.
+3. **Pick a model and go.** Choose a default model with its cost shown, then chat, or point the agent at a project folder.
 
 <br>
 
@@ -131,13 +133,18 @@ Use the email you registered with at **[ai.aeroscan.co.za/account](https://ai.ae
 
 <br>
 
-### CLOSED BETA
-## The Tester plan, free for the first 20
+### PLANS
+## Free for everyone
 
-<img src="docs/brand/plan.png" alt="Tester plan, free for 7 days: 1,000 requests per day, 3 daily-count resets per month, 10 images, videos and music per day, no token limit, every model." width="100%">
+| | Free | Donator |
+|---|---:|---:|
+| Requests per day | 300 | 2,000 or more |
+| Images per day | 10 | 10 or more |
+| Videos per day | 2 | 5 or more |
+| Tokens per day | No limit | No limit |
+| Models | Every model | Every model |
 
-Register with your email, in the app or on the **[website](https://ai.aeroscan.co.za/account)**, while spots are open and you get full access for 7 days, then the account moves to the Free plan. When the 20 spots are gone, registration closes. The **[download page](https://ai.aeroscan.co.za/download)** shows how many are left, live.
-
+Register with your email, in the app or on the **[website](https://ai.aeroscan.co.za/account)**, and start straight away. Limits reset every day at midnight UTC, and models marked Free never use a request. Higher Donator levels get more again.
 <br>
 
 ### MODELS
@@ -146,7 +153,7 @@ Register with your email, in the app or on the **[website](https://ai.aeroscan.c
 A chat message uses the number of requests shown. In agent mode, every step uses that many, so a 10-step task on a 3-request model uses 30. A picture uses the number shown for its image model. Free models never use a request.
 
 <details>
-<summary><b>Chat models (83)</b>: sorted by cost</summary>
+<summary><b>Chat models (82)</b>: sorted by cost</summary>
 
 | Model | Requests per message | Vision | Agent mode |
 |---|---:|:---:|:---:|
@@ -154,7 +161,7 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 | Auto Free | Free | - | - |
 | Beam 1.0 | Free | - | - |
 | Comfy 35B | Free | - | - |
-| Crouton Alpha | Free | Yes | Yes |
+| Crouton Alpha | Free | Yes | - |
 | DeepSeek V4 Flash | Free | Yes | - |
 | DeepSeek V4.1 Flash | Free | Yes | - |
 | DeepSeek V4.1 Flash 1017 | Free | - | - |
@@ -190,31 +197,30 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 | GPT-5.2 | 0.5 | Yes | - |
 | GPT-5.4 Mini | 0.5 | Yes | - |
 | GPT-5.4 Nano | 0.5 | Yes | - |
-| Claude Fable 5.1 | 1 | Yes | Yes |
-| Copilot | 1 | Yes | Yes |
+| Claude Fable 5.1 | 1 | Yes | - |
 | DeepSeek V4 Flash Ext Server 2 | 1 | Yes | - |
-| DeepSeek V4 Pro | 1 | Yes | Yes |
+| DeepSeek V4 Pro | 1 | Yes | - |
 | DeepSeek V4 Pro Ext Server | 1 | - | - |
 | DeepSeek V4 Pro Ext Server 2 | 1 | Yes | - |
 | Gemini 2.5 Flash | 1 | Yes | - |
 | Gemini 2.5 Pro | 1 | Yes | - |
 | Gemini 3 Flash Preview | 1 | Yes | - |
-| Gemini 3.1 Pro | 1 | Yes | Yes |
+| Gemini 3.1 Pro | 1 | Yes | - |
 | Gemini 3.5 Flash | 1 | Yes | - |
 | Gemini 3.8 Flash | 1 | Yes | Yes |
 | GLM 5.2 | 1 | Yes | - |
-| GLM-5.2 | 1 | Yes | Yes |
-| GPT-6 Astra | 1 | Yes | Yes |
-| Grok 4.7 | 1 | Yes | Yes |
-| Kimi K3 | 1 | Yes | Yes |
-| Llama 4 | 1 | Yes | Yes |
+| GLM-5.2 | 1 | Yes | - |
+| GPT-6 Astra | 1 | Yes | - |
+| Grok 4.7 | 1 | Yes | - |
+| Kimi K3 | 1 | Yes | - |
+| Llama 4 | 1 | Yes | - |
 | Lumo Lite | 1 | Yes | - |
 | Lumo Max | 1 | Yes | - |
 | Mercury 2.5 Preview | 1 | Yes | - |
 | MiniMax M2.7 | 1 | Yes | - |
 | Muse Spark 1.2 | 1 | Yes | - |
-| Perplexity Sonar 2 | 1 | Yes | Yes |
-| Qwen3.7-Max | 1 | Yes | Yes |
+| Perplexity Sonar 2 | 1 | Yes | - |
+| Qwen3.7-Max | 1 | Yes | - |
 | Grok 4.20 | 1.2 | Yes | - |
 | Grok 4.3 | 1.3 | Yes | - |
 | Claude Haiku 4.5 | 1.5 | Yes | - |
@@ -237,27 +243,15 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 </details>
 
 <details>
-<summary><b>Agent mode models (25)</b>: can read, edit and run in your project</summary>
+<summary><b>Agent mode models (13)</b>: can read, edit and run in your project</summary>
 
 | Model | Requests per step | Vision |
 |---|---:|:---:|
-| Crouton Alpha | Free | Yes |
 | LFM3-1.7B | Free | Yes |
 | Nemotron 3 Ultra | Free | Yes |
 | Nemotron 3.5 Lightning | Free | Yes |
 | Nemotron 3.5 Super VL | Free | Yes |
-| Claude Fable 5.1 | 1 | Yes |
-| Copilot | 1 | Yes |
-| DeepSeek V4 Pro | 1 | Yes |
-| Gemini 3.1 Pro | 1 | Yes |
 | Gemini 3.8 Flash | 1 | Yes |
-| GLM-5.2 | 1 | Yes |
-| GPT-6 Astra | 1 | Yes |
-| Grok 4.7 | 1 | Yes |
-| Kimi K3 | 1 | Yes |
-| Llama 4 | 1 | Yes |
-| Perplexity Sonar 2 | 1 | Yes |
-| Qwen3.7-Max | 1 | Yes |
 | GPT-5.6 Luna V1 | 2 | Yes |
 | GPT-6 Luna | 2.5 | Yes |
 | Claude Haiku 5.5 | 3 | - |
@@ -310,7 +304,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.10-x6
 ### FAQ
 ## Questions
 
-<details><summary><b>Is it free?</b></summary><br>Yes. The first 20 people to register get the Tester plan free for 7 days, then their account moves to the Free plan. Paid plans come later.</details>
+<details><summary><b>Is it free?</b></summary><br>Yes, for everyone. The Free plan gives you every model with 300 requests, 10 images and 2 videos a day, and models marked Free never use a request. Donators get 2,000 or more requests a day.</details>
 <details><summary><b>Why does Windows say it "protected your PC"?</b></summary><br>The beta isn't code-signed yet, and SmartScreen warns about new unsigned apps. Click <b>More info</b>, then <b>Run anyway</b>. To be sure, check the file's hash as shown above.</details>
 <details><summary><b>What counts as a request?</b></summary><br>Each chat message uses the request cost of the model you picked; free models use none. In agent mode, every step the agent takes uses the model's cost. A picture uses the cost of its image model.</details>
 <details><summary><b>Where do my files go?</b></summary><br>The agent only works in the project folder you choose, on your own PC. You review its changes and can undo them.</details>
@@ -323,7 +317,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.10-x6
 
 <div align="center">
 
-## Try it while the spots last
+## Try it today
 
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.10/AeroScan.AI-Beta-Setup-1.0.0-beta.10-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
