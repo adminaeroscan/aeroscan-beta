@@ -105,12 +105,12 @@ To-dos, milestones, notes, links, chats and agent runs live in one place for eac
 <table>
 <tr>
 <td width="33%" valign="top"><a href="docs/chat.png"><img src="docs/chat.png" alt="A chat that searched the web"></a><br><b>Chat with live web search</b><br><sub>Ask about today and it looks it up, with the cost of every reply shown.</sub></td>
-<td width="33%" valign="top"><a href="docs/models.png"><img src="docs/models.png" alt="The Models page"></a><br><b>41 models, priced up front</b><br><sub>Filter by cost, vision, tools or thinking before you pick one.</sub></td>
+<td width="33%" valign="top"><a href="docs/models.png"><img src="docs/models.png" alt="The Models page"></a><br><b>Models, priced up front</b><br><sub>Filter by cost, vision, tools or thinking before you pick one.</sub></td>
 <td width="33%" valign="top"><a href="docs/usage.png"><img src="docs/usage.png" alt="The Usage page"></a><br><b>Always know what's left</b><br><sub>Requests left today, resets, and usage by model.</sub></td>
 </tr>
 <tr>
-<td valign="top"><b>40+ models</b><br><sub>Switch models in a click. The cost is shown on every one.</sub></td>
-<td valign="top"><b>Images and vision</b><br><sub>Generate images, or paste a screenshot and ask about it.</sub></td>
+<td valign="top"><b>80+ models</b><br><sub>Switch models in a click. The cost is shown on every one.</sub></td>
+<td valign="top"><b>17 image models</b><br><sub>Generate pictures, erase or enlarge photos, or paste a screenshot and ask about it.</sub></td>
 <td valign="top"><b>Your files stay local</b><br><sub>The agent works in folders you choose, on your PC.</sub></td>
 </tr>
 </table>
@@ -119,75 +119,113 @@ To-dos, milestones, notes, links, chats and agent runs live in one place for eac
 
 <br>
 
+### YOUR ACCOUNT
+## Sign in on the web too
+
+Use the email you registered with at **[ai.aeroscan.co.za/account](https://ai.aeroscan.co.za/account)**. It is all in one window, next to the app:
+
+- ✅ **Usage**: today's quotas, a daily chart you can export, and usage by model
+- ✅ **Models**: search the whole catalog, with each model's cost
+- ✅ **Download**: the latest installer and portable version
+- ✅ **Devices and password**: see where you are signed in, sign a device out, change your password
+
+<br>
+
 ### CLOSED BETA
 ## The Tester plan, free for the first 20
 
 <img src="docs/brand/plan.png" alt="Tester plan, free for 7 days: 1,000 requests per day, 3 daily-count resets per month, 10 images, videos and music per day, no token limit, every model." width="100%">
 
-Register in the app while spots are open and you get full access for 7 days, then the account moves to the Free plan. When the 20 spots are gone, registration closes. The **[download page](https://ai.aeroscan.co.za/download)** shows how many are left, live.
+Register with your email, in the app or on the **[website](https://ai.aeroscan.co.za/account)**, while spots are open and you get full access for 7 days, then the account moves to the Free plan. When the 20 spots are gone, registration closes. The **[download page](https://ai.aeroscan.co.za/download)** shows how many are left, live.
 
 <br>
 
 ### MODELS
 ## What each model costs
 
-A chat message uses the number of requests shown. In agent mode, every step uses that many, so a 10-step task on a 3-request model uses 30. Free models never use a request.
+A chat message uses the number of requests shown. In agent mode, every step uses that many, so a 10-step task on a 3-request model uses 30. A picture uses the number shown for its image model. Free models never use a request.
 
 <details>
-<summary><b>Chat models (60)</b>: sorted by cost</summary>
+<summary><b>Chat models (83)</b>: sorted by cost</summary>
 
 | Model | Requests per message | Vision | Agent mode |
 |---|---:|:---:|:---:|
+| Apodex 1.1 Mini | Free | - | - |
 | Auto Free | Free | - | - |
 | Beam 1.0 | Free | - | - |
 | Comfy 35B | Free | - | - |
+| Crouton Alpha | Free | Yes | Yes |
+| DeepSeek V4 Flash | Free | Yes | - |
 | DeepSeek V4.1 Flash | Free | Yes | - |
+| DeepSeek V4.1 Flash 1017 | Free | - | - |
 | Ernie 5.1 | Free | Yes | - |
-| Flint | Free | Yes | Yes |
 | GLM 5.3 Flash | Free | Yes | - |
 | Glyph Cluster | Free | Yes | - |
-| Laguna S 2.1 | Free | Yes | - |
-| LFM2.5-2.6B | Free | Yes | - |
+| Granite 4.2 | Free | - | - |
+| Granite 4.2 Light Thinking | Free | - | - |
+| Granite 4.2 Thinking | Free | - | - |
+| Granite Chat | Free | - | - |
+| K2 Horizon 375B | Free | - | - |
+| LFM2.5 1.2B JP | Free | - | - |
+| LFM2.5 2.6B | Free | - | - |
+| LFM2.5 24B A2B | Free | - | - |
+| LFM2.5 VL 3B | Free | - | - |
+| LFM3-1.7B | Free | Yes | Yes |
+| Ling 3.0 Flash | Free | - | - |
 | MiniMax M2.5 | Free | Yes | - |
+| MiniMax M3.1 Flash | Free | - | - |
+| Mistral Nemo 12B | Free | - | - |
 | Nemotron 3 Ultra | Free | Yes | Yes |
 | Nemotron 3.5 Lightning | Free | Yes | Yes |
 | Nemotron 3.5 Super VL | Free | Yes | Yes |
 | North Mini Code | Free | Yes | - |
 | OpenRouter Free Models Router | Free | Yes | - |
+| Qwen 3.7 Flash | Free | - | - |
 | Qwen 3.8 Flash | Free | Yes | - |
 | Reka Flash | Free | Yes | - |
 | Tencent Hy3 | Free | - | - |
+| Xiaoyi Celia | Free | - | - |
 | DeepSeek V4 Flash Ext Server | 0.5 | - | - |
 | GPT-5.1 | 0.5 | Yes | - |
 | GPT-5.2 | 0.5 | Yes | - |
 | GPT-5.4 Mini | 0.5 | Yes | - |
 | GPT-5.4 Nano | 0.5 | Yes | - |
-| DeepSeek V4 Flash | 1 | Yes | - |
+| Claude Fable 5.1 | 1 | Yes | Yes |
+| Copilot | 1 | Yes | Yes |
 | DeepSeek V4 Flash Ext Server 2 | 1 | Yes | - |
+| DeepSeek V4 Pro | 1 | Yes | Yes |
 | DeepSeek V4 Pro Ext Server | 1 | - | - |
 | DeepSeek V4 Pro Ext Server 2 | 1 | Yes | - |
 | Gemini 2.5 Flash | 1 | Yes | - |
 | Gemini 2.5 Pro | 1 | Yes | - |
 | Gemini 3 Flash Preview | 1 | Yes | - |
+| Gemini 3.1 Pro | 1 | Yes | Yes |
 | Gemini 3.5 Flash | 1 | Yes | - |
 | Gemini 3.8 Flash | 1 | Yes | Yes |
 | GLM 5.2 | 1 | Yes | - |
+| GLM-5.2 | 1 | Yes | Yes |
+| GPT-6 Astra | 1 | Yes | Yes |
+| Grok 4.7 | 1 | Yes | Yes |
+| Kimi K3 | 1 | Yes | Yes |
+| Llama 4 | 1 | Yes | Yes |
+| Lumo Lite | 1 | Yes | - |
+| Lumo Max | 1 | Yes | - |
 | Mercury 2.5 Preview | 1 | Yes | - |
 | MiniMax M2.7 | 1 | Yes | - |
 | Muse Spark 1.2 | 1 | Yes | - |
+| Perplexity Sonar 2 | 1 | Yes | Yes |
+| Qwen3.7-Max | 1 | Yes | Yes |
 | Grok 4.20 | 1.2 | Yes | - |
 | Grok 4.3 | 1.3 | Yes | - |
 | Claude Haiku 4.5 | 1.5 | Yes | - |
-| DeepSeek V4 Pro | 1.5 | Yes | - |
 | Grok Build 0.1 | 1.5 | Yes | - |
-| Qwen 3.7 Plus | 1.5 | Yes | Yes |
-| Qwen 3.8 Omni Flash | 1.7 | Yes | Yes |
+| Qwen 3.7 Plus | 1.5 | Yes | - |
+| Qwen 3.8 Omni Flash | 1.7 | Yes | - |
 | GPT-5.6 Luna V1 | 2 | Yes | Yes |
 | MiniMax M3 | 2 | Yes | - |
-| Qwen 3.8 Max | 2 | Yes | Yes |
+| Qwen 3.8 Max | 2 | Yes | - |
 | Claude Sonnet 4.5 | 2.5 | Yes | - |
 | GPT-6 Luna | 2.5 | Yes | Yes |
-| Kimi K3 | 2.5 | Yes | - |
 | Claude Haiku 5.5 | 3 | - | Yes |
 | Claude Sonnet 4.6 | 3 | Yes | - |
 | GPT-5.6 Sol | 3 | Yes | Yes |
@@ -195,26 +233,32 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 | GPT-6 Sol | 3.5 | Yes | Yes |
 | GPT-6.1 Sol | 4 | Yes | Yes |
 | Claude Sonnet 5.5 | 5 | Yes | Yes |
-| Gemini 4 Argon | 5 | Yes | - |
-| GPT-6 Astra | 5 | Yes | Yes |
-| Claude Opus 5.5 | 7 | - | Yes |
 
 </details>
 
 <details>
-<summary><b>Agent mode models (18)</b>: can read, edit and run in your project</summary>
+<summary><b>Agent mode models (25)</b>: can read, edit and run in your project</summary>
 
 | Model | Requests per step | Vision |
 |---|---:|:---:|
-| Flint | Free | Yes |
+| Crouton Alpha | Free | Yes |
+| LFM3-1.7B | Free | Yes |
 | Nemotron 3 Ultra | Free | Yes |
 | Nemotron 3.5 Lightning | Free | Yes |
 | Nemotron 3.5 Super VL | Free | Yes |
+| Claude Fable 5.1 | 1 | Yes |
+| Copilot | 1 | Yes |
+| DeepSeek V4 Pro | 1 | Yes |
+| Gemini 3.1 Pro | 1 | Yes |
 | Gemini 3.8 Flash | 1 | Yes |
-| Qwen 3.7 Plus | 1.5 | Yes |
-| Qwen 3.8 Omni Flash | 1.7 | Yes |
+| GLM-5.2 | 1 | Yes |
+| GPT-6 Astra | 1 | Yes |
+| Grok 4.7 | 1 | Yes |
+| Kimi K3 | 1 | Yes |
+| Llama 4 | 1 | Yes |
+| Perplexity Sonar 2 | 1 | Yes |
+| Qwen3.7-Max | 1 | Yes |
 | GPT-5.6 Luna V1 | 2 | Yes |
-| Qwen 3.8 Max | 2 | Yes |
 | GPT-6 Luna | 2.5 | Yes |
 | Claude Haiku 5.5 | 3 | - |
 | GPT-5.6 Sol | 3 | Yes |
@@ -222,8 +266,31 @@ A chat message uses the number of requests shown. In agent mode, every step uses
 | GPT-6 Sol | 3.5 | Yes |
 | GPT-6.1 Sol | 4 | Yes |
 | Claude Sonnet 5.5 | 5 | Yes |
-| GPT-6 Astra | 5 | Yes |
-| Claude Opus 5.5 | 7 | - |
+
+</details>
+
+<details>
+<summary><b>Image models (17)</b>: pictures and photo tools, sorted by cost</summary>
+
+| Model | Requests per image | Kind |
+|---|---:|---|
+| Background Remover | 0.3 | Photo tool |
+| Eraser | 0.3 | Photo tool |
+| Art | 0.5 | Image generation |
+| FLUX.2 klein 4B | 0.5 | Image generation |
+| Image Upscaler | 0.5 | Photo tool |
+| MIAOTU Image | 0.5 | Image generation |
+| Nano Banana 2 Lite | 0.5 | Image generation |
+| Qwen Image 3.0 Turbo | 0.5 | Image generation |
+| Grok Imagine 2.0 | 1 | Image generation |
+| Nano Banana 2 | 1 | Image generation |
+| GPT Image 1.5 | 1.5 | Image generation |
+| GPT Image 1.5 Landscape | 1.5 | Image generation |
+| GPT Image 1.5 Portrait | 1.5 | Image generation |
+| Seedream 5.0 Pro | 1.5 | Image generation |
+| FLUX.2 max | 2 | Image generation |
+| Nano Banana Pro | 2 | Image generation |
+| GPT Image 2.5 Flare | 2.5 | Image generation |
 
 </details>
 
@@ -245,7 +312,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.10-x6
 
 <details><summary><b>Is it free?</b></summary><br>Yes. The first 20 people to register get the Tester plan free for 7 days, then their account moves to the Free plan. Paid plans come later.</details>
 <details><summary><b>Why does Windows say it "protected your PC"?</b></summary><br>The beta isn't code-signed yet, and SmartScreen warns about new unsigned apps. Click <b>More info</b>, then <b>Run anyway</b>. To be sure, check the file's hash as shown above.</details>
-<details><summary><b>What counts as a request?</b></summary><br>Each chat message uses the request cost of the model you picked; free models use none. In agent mode, every step the agent takes uses the model's cost.</details>
+<details><summary><b>What counts as a request?</b></summary><br>Each chat message uses the request cost of the model you picked; free models use none. In agent mode, every step the agent takes uses the model's cost. A picture uses the cost of its image model.</details>
 <details><summary><b>Where do my files go?</b></summary><br>The agent only works in the project folder you choose, on your own PC. You review its changes and can undo them.</details>
 <details><summary><b>Is the source code available?</b></summary><br>Not at the moment. This repository holds release builds only.</details>
 <details><summary><b>Where do I get help or report a bug?</b></summary><br>Join our <a href="https://discord.gg/DWYhRmu9Dz">Discord</a>: testers get their own channels for bug reports, feature requests and agent mode. You can also open an issue here on GitHub.</details>
