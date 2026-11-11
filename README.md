@@ -5,9 +5,10 @@
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.11/AeroScan.AI-Beta-Setup-1.0.0-beta.11-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows (installer, 97 MB)" height="64"></a>
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.11/AeroScan.AI-Beta-Portable-1.0.0-beta.11-x64.exe"><img src="docs/brand/btn-portable.png" alt="Portable version, no install needed" height="64"></a>
 <a href="https://ai.aeroscan.co.za/download"><img src="docs/brand/btn-page.png" alt="Download page" height="64"></a>
+<a href="https://ai.aeroscan.co.za/"><img src="docs/brand/btn-android.svg" alt="Download for Android (APK, Android 8 or newer)" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
-<sub>Version 1.0.0-beta.11 · Windows 10 / 11, 64-bit · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
+<sub>Version 1.0.0-beta.11 · Windows 10 / 11, 64-bit · <b>Android app (beta)</b> too · Free during the beta · <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/latest">All releases</a></sub>
 
 </div>
 
@@ -25,12 +26,41 @@ Beta 10 brought **a live preview that works first time, a live Support page and 
 
 <br>
 
+### ON YOUR PHONE
+## AeroScan AI for Android (beta)
+
+The same account, the same models, now in your pocket. Chat, make pictures, video and songs, and keep going from where you left off on the desktop.
+
+- 💬 **Chat with every model**: streaming answers, thinking shown in its own block, web search that uses the conversation, follow-up questions, notes per chat, saved prompts and personas, and chats you can back up and restore.
+- 🎨 **Pictures, video, music and edits**: make them from the Media studio or right in the chat, view and save them, keep finished videos and songs on the phone, remove a background, change a picture from a prompt, make it bigger or erase something.
+- 🎤 **Made for a phone**: dictate a message and have replies read aloud, share text or a picture from any app into a new chat, take a photo straight into one, a Quick Settings tile and a home-screen widget for a one-tap new chat, and an app lock using your own fingerprint, face or PIN.
+- 🔔 **Tells you when it is done**: a notification when a video, song, edit or long reply finishes, or when support answers, and tapping it opens the right screen.
+- 🛟 **Support and your own providers**: report a problem or an idea and follow the answer, and add your own OpenAI-compatible service with your own key (paid plans).
+- 🔒 **Your own connection**: like the desktop app, requests leave from your phone's own IP through the built-in tunnel.
+
+**Install:** on your phone, open **[ai.aeroscan.co.za](https://ai.aeroscan.co.za/)** and tap **Android app (beta)** to download the APK, then open it and allow **Install unknown apps** for your browser when Android asks. Sign in with the account you use on the desktop. After that the app checks for updates by itself and offers a one-tap download. Android 8 or newer, free during the beta. The website shows the version, size and SHA-256 of the current build, and earlier ones are on the [releases page](https://github.com/adminaeroscan/aeroscan-beta/releases?q=android).
+
+<br>
+
+### THE WEBSITE
+## ai.aeroscan.co.za
+
+Everything is on one public page: **[ai.aeroscan.co.za](https://ai.aeroscan.co.za/)**.
+
+- ⬇️ **Downloads** for Windows (installer and portable) and Android, with the version, size and SHA-256 of each file
+- 📋 **The live model list** with every model's cost, and today's **Free and Donator limits**
+- 👤 **Your account**: sign in to see usage, your devices, change your password, and download the apps
+- 🛟 **Help**: the Discord, support reports from inside the apps, and the legal pages
+
+<br>
+
 ### GET STARTED
 ## Up and running in two minutes
 
 1. **Download and run.** If Windows SmartScreen warns, click **More info**, then **Run anyway**.
 2. **Register with your email**, in the app or on the [website](https://ai.aeroscan.co.za/account). Confirm the link we email you, then sign in. It is free for everyone.
 3. **Pick a model and go.** Choose a default model with its cost shown, then chat, or point the agent at a project folder.
+4. **On Android?** The phone app uses the same account. See *On your phone* above.
 
 <br>
 
@@ -160,6 +190,8 @@ The beta isn't code-signed yet, which is why Windows shows a warning. To make su
 Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.11-x64.exe" -Algorithm SHA256
 ```
 
+The Android file's SHA-256 is on the [website](https://ai.aeroscan.co.za/), next to the download. Compare it before you install.
+
 <br>
 
 ### FAQ
@@ -172,7 +204,9 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.11-x6
 <details><summary><b>Is the source code available?</b></summary><br>Not at the moment. This repository holds release builds only.</details>
 <details><summary><b>Where do I get help or report a bug?</b></summary><br>Join our <a href="https://discord.gg/DWYhRmu9Dz">Discord</a>: testers get their own channels for bug reports, feature requests and agent mode. You can also open an issue here on GitHub.</details>
 <details><summary><b>Can I use it in VS Code?</b></summary><br>Yes. In the app, open Settings → Integrations and click <b>Add to VS Code</b> (or <b>Update</b>). Your models, plus "AeroScan Agent" versions of the agent models, appear in Copilot Chat's model picker. Paste your API key once when VS Code asks. Keep the app open while you use the AeroScan Agent models.</details>
-<details><summary><b>Mac or Linux?</b></summary><br>Windows 10 and 11 (64-bit) only for now.</details>
+<details><summary><b>Mac, Linux or iPhone?</b></summary><br>Windows 10 and 11 (64-bit), and Android 8 or newer. There is no Mac, Linux or iPhone version yet.</details>
+<details><summary><b>How do I install the Android app?</b></summary><br>Open <a href="https://ai.aeroscan.co.za/">ai.aeroscan.co.za</a> on your phone, download the Android APK, open it and allow <b>Install unknown apps</b> for your browser when Android asks. Sign in with your account. The app then offers its own updates.</details>
+<details><summary><b>Is the phone app the same as the desktop one?</b></summary><br>Same account, models and limits. The phone app has chat, pictures, video, music, editing, voice, notifications and support; the agent that edits files in project folders is a desktop feature.</details>
 
 <br>
 
@@ -181,6 +215,7 @@ Get-FileHash "$env:USERPROFILE\Downloads\AeroScan.AI-Beta-Setup-1.0.0-beta.11-x6
 ## Try it today
 
 <a href="https://github.com/adminaeroscan/aeroscan-beta/releases/download/v1.0.0-beta.11/AeroScan.AI-Beta-Setup-1.0.0-beta.11-x64.exe"><img src="docs/brand/btn-download.png" alt="Download for Windows" height="64"></a>
+<a href="https://ai.aeroscan.co.za/"><img src="docs/brand/btn-android.svg" alt="Download for Android" height="64"></a>
 <a href="https://discord.gg/DWYhRmu9Dz"><img src="docs/brand/btn-discord.png" alt="Join our Discord" height="64"></a>
 
 Found a bug or have an idea? Tell us in **[Discord](https://discord.gg/DWYhRmu9Dz)** or **[open an issue](https://github.com/adminaeroscan/aeroscan-beta/issues/new)**: say what you did, what you expected and what happened. A screenshot helps.
